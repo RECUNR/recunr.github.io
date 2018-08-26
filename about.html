@@ -1,0 +1,79 @@
+<style>
+    * {
+  box-sizing: border-box;
+  color: #333;
+}
+
+body {
+  font-family: "PT Sans";
+  background-color: #ddd;
+}
+
+.section {
+  position: relative;
+  width: 900px;
+  max-width: 80%;
+  border: 2px solid #333;
+  border-top: none;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.section h1 {
+  position: relative;
+  margin-top: -14px;
+  display: inline-block;
+  letter-spacing: 4px;
+}
+
+.top-border{
+  position: absolute;
+  height: 2px;
+  width: 24%;
+  background-color: #333;
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
+
+@media (max-width: 685px) {
+.top-border {	
+  width: 18%;
+	}
+}
+
+.section p {
+  width: 61%;
+  margin: 20px auto 40px auto;
+  line-height: 30px;
+  text-align: left;
+
+}
+
+
+
+
+
+@media (max-width: 500px) {
+  .top-border {	
+    display: none;
+  }
+  .section {
+  border-top: 2px solid #333;
+  }
+  .section h1 {
+    margin: 20px 6px;
+  }
+}
+</style>
+<div class="section">
+  <div class="top-border left"></div>
+  <div class="top-border right"></div>
+  <h1>About Us</h1>
+  <p>We are a group of students who aim to create an environment for like-minded individuals to explore and tinker with electronics. The club is structured around a central project and several side-projects, many of which, are to be presented at Maker Faire at L.A., Reno, and Las Vegas. This year's side projects include a weather baloon, plasma arc (speaker), and a few arduino and raspberry pi musical animation projects. The main project is an active RC car chase and seek implementation using computer vision. </p>
+</div>
